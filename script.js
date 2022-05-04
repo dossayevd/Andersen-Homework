@@ -16,26 +16,26 @@ if (
 
 /* 2 Задача */
 
-// let firstNumber;
-// let secondNumber;
+let firstNumber;
+let secondNumber;
 
-// function result() {
-//   firstNumber = +prompt('Введите первое число');
+function result() {
+  firstNumber = +prompt('Введите первое число');
 
-//   if (isNaN(firstNumber) || firstNumber === '') {
-//     return console.log('Некорректный ввод!');
-//   }
+  if (isNaN(firstNumber) || firstNumber === '') {
+    return console.log('Некорректный ввод!');
+  }
 
-//   secondNumber = +prompt('Введите второе число');
+  secondNumber = +prompt('Введите второе число');
 
-//   if (isNaN(secondNumber) || secondNumber === '') {
-//     return console.log('Некорректный ввод!');
-//   } else {
-//     console.log(
-//       `Ответ: ${firstNumber + secondNumber}, ${firstNumber / secondNumber}.`
-//     );
-//   }
-// }
+  if (isNaN(secondNumber) || secondNumber === '') {
+    return console.log('Некорректный ввод!');
+  } else {
+    console.log(
+      `Ответ: ${firstNumber + secondNumber}, ${firstNumber / secondNumber}.`
+    );
+  }
+}
 
-// result();
+result();
 /* 2 Задача */
