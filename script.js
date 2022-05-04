@@ -1,15 +1,12 @@
 /* 1 Задача */
-let firstNumber = +prompt('Введите первое число');
-let secondNumber = +prompt('Введите второе число');
+const firstNumber = +prompt('Введите первое число');
+const secondNumber = +prompt('Введите второе число');
 
 if (
-  (!isNaN(firstNumber) || firstNumber !== '') &&
-  (isNaN(secondNumber) || secondNumber === '')
-) {
-  console.log('Некорректный ввод!');
-} else if (
-  (isNaN(firstNumber) || firstNumber === '') &&
-  (!isNaN(secondNumber) || secondNumber !== '')
+  isNaN(firstNumber) ||
+  firstNumber == '' ||
+  isNaN(secondNumber) ||
+  secondNumber == ''
 ) {
   console.log('Некорректный ввод!');
 } else {
